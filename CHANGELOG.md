@@ -15,3 +15,7 @@
 - Metodo exceso_promedio: exceso medio como % sobre velocidad maxima.
 - Metodo exceso_real_promedio: exceso medio en km/h.
 - Metodo multas_por_ubicacion: conteo de multas por ubicacion.
+
+## [Sprint 1] - Punto 07
+### Added
+- Redaccion de la conclusion del analisis en README.md.
