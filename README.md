@@ -61,3 +61,29 @@ Los radares urbanos generan registros administrativos automáticos y las cámara
 
 ## Sprint actual
 Sprint 2: procesamiento de imágenes con OpenCV y extracción de patentes con Tesseract OCR.
+
+## Conclusión - Sprint 2
+
+### Relación entre imágenes y datos tabulares (Reincidentes)
+
+En este sprint integramos dos fuentes de datos: el dataset de multas del Sprint 1 y las imágenes de los radares.
+Cruzamos ambas usando OCR para determinar qué multas tienen evidencia visual válida.
+Descubrimos que la relación es de **1 a N** (una imagen puede corresponder a múltiples multas) dado que existen vehículos reincidentes que cometieron varias infracciones de velocidad. Por lo tanto, el cruce itera sobre el listado de multas y le asigna la imagen que mejor coincida con su patente.
+
+### Pipeline de procesamiento implementado
+
+Construimos un pipeline de cuatro etapas con OpenCV: conversión a grises, suavizado bilateral, detección de bordes con Canny adaptativo y extracción OCR con Tesseract.
+Para mejorar la lectura de patentes agregamos cierre morfológico rectangular, sharpening con kernel 3x3, umbralización OTSU en múltiples variantes y filtrado geométrico por área y relación de aspecto (2.0 a 6.5).
+
+### Impacto de los registros con hora 00:00 y fecha 1932-01-01
+
+Decidimos conservar estas filas porque representan multas reales cuyo valor temporal no pudo parsearse en el Sprint 1. Participan del cruce con imágenes y pueden tener coincidencia visual, pero sus fechas y horas no son confiables para análisis cronológico. Cualquier métrica por franja horaria o período que las incluya debe interpretarse con precaución.
+
+### Resultados y Multas sin evidencia visual
+
+Una parte del dataset no obtuvo coincidencia con ninguna imagen (851 multas). Las causas pueden ser: que la patente no figure en el set de fotos, o que el OCR no haya podido extraer el texto correctamente.
+Sin embargo, al soportar reincidentes, logramos asignar imágenes válidas a 834 multas (usando las 31 fotografías que superaron el umbral de similitud del 80% mediante LCS de izquierda a derecha).
+
+### Conclusión general
+
+El trabajo de este sprint nos permitió vincular la evidencia fotográfica con los registros administrativos contemplando la reincidencia vehicular. La arquitectura de pipeline por etapas que desarrollamos facilita iteraciones futuras para mejorar el porcentaje de extracción OCR.
