@@ -86,3 +86,8 @@
 ## [Sprint 3] - Ejercicio 05
 ### Added
 - Implementación de modelos ORM con SQLAlchemy (VehiculoORM, RadarORM, EvidenciaORM, MultaORM).
+
+## [Sprint 3] - Ejercicio 06
+### Added
+- Separación en múltiples celdas para creación de DB, tablas y migración.
+- Migración de datos estructurada desde CSV a DB Relacional.
