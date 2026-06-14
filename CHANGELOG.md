@@ -91,3 +91,8 @@
 ### Added
 - Separación en múltiples celdas para creación de DB, tablas y migración.
 - Migración de datos estructurada desde CSV a DB Relacional.
+
+## [Sprint 3] - Ejercicio 07
+### Added
+- Consultas SQL con SQLAlchemy separadas en celdas.
+- Métricas analizadas: Top patentes, multas sin evidencia, radares activos, reincidentes y porcentaje visual.
