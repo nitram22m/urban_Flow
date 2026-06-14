@@ -102,3 +102,7 @@
 - Inicialización de base de datos vectorial usando ChromaDB.
 - Implementación de OpenCLIP para generación de image embeddings.
 - Carga de vectores relacionando imagen e ID del vehículo en la colección.
+
+## [Sprint 3] - Ejercicio 09
+### Added
+- Implementación de `buscar_patente_imagen` combinando ChromaDB y SQLAlchemy.
