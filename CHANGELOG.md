@@ -106,3 +106,7 @@
 ## [Sprint 3] - Ejercicio 09
 ### Added
 - Implementación de `buscar_patente_imagen` combinando ChromaDB y SQLAlchemy.
+
+## [Sprint 3] - Ejercicio 10
+### Added
+- Redacción de la conclusión final del trabajo en el README.md.

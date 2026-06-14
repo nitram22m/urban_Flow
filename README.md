@@ -97,3 +97,9 @@ Profesionalizar la solución incorporando persistencia relacional (SQLAlchemy), 
 
 ## Introducción y contexto
 El volumen de datos creció bastante, así que pasamos de usar archivos CSV a una base de datos SQLite llamada `transito` usando SQLAlchemy. También metimos DVC para no subir archivos pesados a Git, y armamos un buscador de patentes por imágenes con ChromaDB.
+
+## Conclusión Final
+
+A lo largo de los tres sprints, logramos armar un sistema mucho más robusto para procesar las multas de tránsito. Pasamos de analizar simples archivos CSV que venían con varios errores, a tener una base de datos relacional bien armada con SQLAlchemy, lo que nos facilita bastante la vida a la hora de hacer cruces de información y sacar métricas.
+
+Lo más interesante de esta última etapa fue incorporar herramientas como DVC para no llenar el repositorio de GitHub con archivos pesados y, sobre todo, armar el buscador de imágenes usando ChromaDB y OpenCLIP. Esto último está muy bueno porque nos permite encontrar el vehículo directamente analizando la foto, lo cual sirve un montón como doble chequeo cuando el sistema tradicional falla o no lee bien el texto de la patente. En definitiva, nos llevamos una muy buena experiencia sobre cómo integrar bases de datos tradicionales con modelos vectoriales y buenas prácticas de versionado de datos.
