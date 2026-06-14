@@ -74,3 +74,7 @@
 - DVC inicializado y remote local configurado.
 - Migración de speeding_fines_image.csv a DVC.
 - Migración de imágenes a DVC.
+
+## [Sprint 3] - Ejercicio 03
+### Added
+- Implementación del modelo lógico de clases (Vehiculo, Multa, Radar, Evidencia).
