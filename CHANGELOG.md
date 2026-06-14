@@ -78,3 +78,7 @@
 ## [Sprint 3] - Ejercicio 03
 ### Added
 - Implementación del modelo lógico de clases (Vehiculo, Multa, Radar, Evidencia).
+
+## [Sprint 3] - Ejercicio 04
+### Added
+- Implementación de procesar_fila_csv para instanciar modelo lógico.
