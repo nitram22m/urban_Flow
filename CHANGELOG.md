@@ -82,3 +82,7 @@
 ## [Sprint 3] - Ejercicio 04
 ### Added
 - Implementación de procesar_fila_csv para instanciar modelo lógico.
+
+## [Sprint 3] - Ejercicio 05
+### Added
+- Implementación de modelos ORM con SQLAlchemy (VehiculoORM, RadarORM, EvidenciaORM, MultaORM).
