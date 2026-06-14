@@ -87,3 +87,13 @@ Sin embargo, al soportar reincidentes, logramos asignar imágenes válidas a 834
 ### Conclusión general
 
 El trabajo de este sprint nos permitió vincular la evidencia fotográfica con los registros administrativos contemplando la reincidencia vehicular. La arquitectura de pipeline por etapas que desarrollamos facilita iteraciones futuras para mejorar el porcentaje de extracción OCR.
+
+# Urban Flow - Sprint 3
+
+## Sprint actual: Sprint 3
+
+## Objetivo
+Profesionalizar la solución incorporando persistencia relacional (SQLAlchemy), control de versiones de datos (DVC) y búsqueda vectorial por similitud (ChromaDB + OpenCLIP).
+
+## Introducción y contexto
+El volumen de datos creció bastante, así que pasamos de usar archivos CSV a una base de datos SQLite llamada `transito` usando SQLAlchemy. También metimos DVC para no subir archivos pesados a Git, y armamos un buscador de patentes por imágenes con ChromaDB.

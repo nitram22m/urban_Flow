@@ -62,3 +62,9 @@
 - Conclusión del Sprint 2 agregada al README.md principal.
 - Análisis de reincidentes (relación 1 a N entre imágenes y multas).
 - Análisis impacto datos inválidos 00:00 y 1932-01-01.
+
+## [Sprint 3] - Ejercicio 01
+### Added
+- Creé la rama Sprint_3 a partir de la 2.
+- Chequeé que los datasets viejos sigan ahí.
+- Actualicé el README con lo que vamos a hacer en este sprint.
