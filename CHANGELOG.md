@@ -26,3 +26,10 @@
 - Estructura de directorios Sprint 2.
 - Descarga y descompresión de urban_flow_plates.zip.
 - README.md actualizado con objetivo Sprint 2.
+
+## [Sprint 2] - Ejercicio 02
+### Added
+- Listado de imágenes con nombre y tamaño en KB.
+- Separación en grupos 'plates' y 'completes'.
+- Guardado de group_images.json en data/interim/.
+- Función mostrar_muestras reutilizable.
