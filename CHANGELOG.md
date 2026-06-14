@@ -40,3 +40,12 @@
 - Suavizado gaussiano en 03_02_blur/.
 - Detección de bordes Canny en 03_03_canny/.
 - Grillas de muestras por etapa de procesamiento.
+
+## [Sprint 2] - Ejercicio 04
+### Added
+- Pipeline OCR: denoising, sharpening, cierre morfologico.
+- 7 variantes de preprocesamiento por imagen.
+- Seleccion por rango 4-10 chars alfanumericos.
+- Filtrado geometrico con margen asimetrico en completes.
+- Cruce LCS con ratio >= 0.80 soportando multas REINCIDENTES (1 imagen -> N multas).
+- speeding_fines_image.csv en data/processed/.
