@@ -19,3 +19,10 @@
 ## [Sprint 1] - Punto 07
 ### Added
 - Redaccion de la conclusion del analisis en README.md.
+
+## [Sprint 2] - Ejercicio 01
+### Added
+- Rama Sprint_2 creada desde Sprint_1.
+- Estructura de directorios Sprint 2.
+- Descarga y descompresión de urban_flow_plates.zip.
+- README.md actualizado con objetivo Sprint 2.

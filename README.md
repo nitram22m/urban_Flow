@@ -50,3 +50,14 @@ Los principales hallazgos son:
 - El exceso de velocidad real promedio entre los infractores
   supera ampliamente el limite permitido, lo que representa un
   riesgo significativo para la seguridad vial de la localidad.
+
+# Urban Flow - Sprint 2
+
+## Objetivo
+Determinar qué multas de velocidad cuentan con evidencia visual válida mediante OCR sobre imágenes de radares urbanos.
+
+## Introducción y contexto
+Los radares urbanos generan registros administrativos automáticos y las cámaras asociadas registran la evidencia visual. No todas las multas tienen imagen asociada, no todas las imágenes corresponden a una infracción y puede haber errores de detección OCR.
+
+## Sprint actual
+Sprint 2: procesamiento de imágenes con OpenCV y extracción de patentes con Tesseract OCR.
