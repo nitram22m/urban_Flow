@@ -33,3 +33,10 @@
 - Separación en grupos 'plates' y 'completes'.
 - Guardado de group_images.json en data/interim/.
 - Función mostrar_muestras reutilizable.
+
+## [Sprint 2] - Ejercicio 03
+### Added
+- Conversión a grises en 03_01_gray_scale/.
+- Suavizado gaussiano en 03_02_blur/.
+- Detección de bordes Canny en 03_03_canny/.
+- Grillas de muestras por etapa de procesamiento.
