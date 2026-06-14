@@ -68,3 +68,9 @@
 - Creé la rama Sprint_3 a partir de la 2.
 - Chequeé que los datasets viejos sigan ahí.
 - Actualicé el README con lo que vamos a hacer en este sprint.
+
+## [Sprint 3] - Ejercicio 02
+### Added
+- DVC inicializado y remote local configurado.
+- Migración de speeding_fines_image.csv a DVC.
+- Migración de imágenes a DVC.
