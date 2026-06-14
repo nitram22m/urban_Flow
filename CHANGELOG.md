@@ -96,3 +96,9 @@
 ### Added
 - Consultas SQL con SQLAlchemy separadas en celdas.
 - Métricas analizadas: Top patentes, multas sin evidencia, radares activos, reincidentes y porcentaje visual.
+
+## [Sprint 3] - Ejercicio 08
+### Added
+- Inicialización de base de datos vectorial usando ChromaDB.
+- Implementación de OpenCLIP para generación de image embeddings.
+- Carga de vectores relacionando imagen e ID del vehículo en la colección.
