@@ -49,3 +49,10 @@
 - Filtrado geometrico con margen asimetrico en completes.
 - Cruce LCS con ratio >= 0.80 soportando multas REINCIDENTES (1 imagen -> N multas).
 - speeding_fines_image.csv en data/processed/.
+
+## [Sprint 2] - Ejercicio 05
+### Added
+- Métricas: multas sin/con imagen e imgs sin match.
+- Métricas: multas pendientes totales y con imagen.
+- multas_imagen.jpg: distribución con/sin evidencia.
+- top10_patentes_imagen.jpg: top 10 con match.
